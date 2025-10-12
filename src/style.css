@@ -1,0 +1,75 @@
+@import url("./reset.module.css");
+@font-face {
+  font-family: "font";
+  src: url("../public/Font/iran-yekan.woff2");
+}
+body {
+  font-family: "font";
+}
+.h100 {
+  height: fit-content;
+}
+.h50 {
+  height: 50px;
+}
+.wh {
+  width: 20px;
+  height: 20px;
+}
+.h200 {
+  height: fit-content;
+}
+.badgestyle {
+  width: 35px;
+  height: 50px;
+  opacity: 80%;
+}
+.h300 {
+  height: 60px;
+}
+.footerclass {
+  height: 60px;
+}
+.img {
+  height: 100px;
+}
+.but-posh {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.drop {
+  width: fit-content;
+  height: 100%;
+  position: relative;
+  .down {
+    width: 50vh;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 20px;
+    display: none;
+    padding: 20px;
+  }
+  &:hover {
+    cursor: pointer;
+    .down {
+      display: block;
+    }
+  }
+}
+.backpack {
+  .down {
+    width: 300px;
+    height: 250px;
+    display: none;
+  }
+  &:hover {
+    cursor: pointer;
+    .down {
+      display: block;
+    }
+  }
+}
