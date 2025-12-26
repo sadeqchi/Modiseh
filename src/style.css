@@ -1,7 +1,7 @@
 @import url("./reset.module.css");
 @font-face {
   font-family: "font";
-  src: url("../public/Font/iran-yekan.woff2");
+  src: url("../Font/iran-yekan.woff2");
 }
 body {
   font-family: "font";
